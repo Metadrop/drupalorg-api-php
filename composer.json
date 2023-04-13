@@ -2,10 +2,10 @@
     "name": "opdavies/drupalorg-api-php",
     "description": "PHP library for the Drupal.org API",
     "require": {
-        "php": "^7.1",
-        "ext-json": "^1.5",
-        "guzzlehttp/guzzle": "^6.3",
-        "tightenco/collect": "^6.3"
+        "php": "^7.1 || ^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3 || ^7.5",
+        "illuminate/collections": "^10.6"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.10",
